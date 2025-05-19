@@ -23,6 +23,12 @@ public class ModSounds {
     public static final Supplier<SoundEvent> SAMBA_SOUND = registerSoundEvent("samba");
     public static final ResourceKey<JukeboxSong> SAMBA_KEY = createSong("samba");
 
+    public static final Supplier<SoundEvent> PEG_SOUND = registerSoundEvent("peg");
+    public static final ResourceKey<JukeboxSong> PEG_KEY = createSong("peg");
+
+    public static final Supplier<SoundEvent> GREEN_EARRINGS_SOUND = registerSoundEvent("green_earrings");
+    public static final ResourceKey<JukeboxSong> GREEN_EARRINGS_KEY = createSong("green_earrings");
+
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(MarcosValleMod.MOD_ID, name));
     }

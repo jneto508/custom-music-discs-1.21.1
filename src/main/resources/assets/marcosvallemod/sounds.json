@@ -14,5 +14,21 @@
         "stream": true
       }
     ]
+  },
+  "peg": {
+    "sounds": [
+      {
+        "name": "marcosvallemod:peg",
+        "stream": true
+      }
+    ]
+  },
+  "green_earrings": {
+    "sounds": [
+      {
+        "name": "marcosvallemod:green_earrings",
+        "stream": true
+      }
+    ]
   }
 }

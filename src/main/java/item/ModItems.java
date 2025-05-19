@@ -7,6 +7,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -27,6 +28,11 @@ public class ModItems {
     public static final DeferredItem<Item> VELHOS_MUSIC_DISC = ITEMS.register("velhos",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.VELHOS_KEY).stacksTo(1).rarity(Rarity.EPIC)));
 
+    public static final DeferredItem<Item> PEG_MUSIC_DISC = ITEMS.register("peg",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.PEG_KEY).stacksTo(1).rarity(Rarity.EPIC)));
+
+    public static final DeferredItem<Item> GREEN_EARRINGS_MUSIC_DISC = ITEMS.register("green_earrings",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.GREEN_EARRINGS_KEY).stacksTo(1).rarity(Rarity.EPIC)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

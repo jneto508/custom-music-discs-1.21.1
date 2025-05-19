@@ -59,6 +59,12 @@ public class MarcosValleMod {
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.VELHOS_MUSIC_DISC);
         }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.PEG_MUSIC_DISC);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.GREEN_EARRINGS_MUSIC_DISC);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

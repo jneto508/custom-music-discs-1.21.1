@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.marcosvallemod.green_earrings.desc"
+  },
+  "length_in_seconds": 245.0,
+  "sound_event": "marcosvallemod:green_earrings"
+}
