@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.marcosvallemod.velhos.desc"
+  },
+  "length_in_seconds": 273.0,
+  "sound_event": "marcosvallemod:velhos"
+}

@@ -1,0 +1,18 @@
+{
+  "samba": {
+    "sounds": [
+      {
+        "name": "marcosvallemod:samba",
+        "stream": true
+      }
+    ]
+  },
+  "velhos": {
+    "sounds": [
+      {
+        "name": "marcosvallemod:velhos",
+        "stream": true
+      }
+    ]
+  }
+}
